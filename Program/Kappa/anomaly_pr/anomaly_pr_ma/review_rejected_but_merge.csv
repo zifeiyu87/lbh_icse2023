@@ -1,0 +1,6 @@
+﻿repo,pr_number,pr_type,user_name,user_email,reason
+dubbo,7671,1,,,other-贡献者和评审者在讨论区进行了讨论，最终说服了评审者
+dubbo,7926,1,,,other-贡献者和评审者在讨论区进行了讨论，最终说服了评审者
+tensorflow,47159,2,,,other-PR bot(机器人)的误操作
+tensorflow,48024,2,,,other-PR bot(机器人)的误操作
+tensorflow,52428,1,,,other-评审者在讨论区解释了原因，为了避免延迟，他自己完善了代码

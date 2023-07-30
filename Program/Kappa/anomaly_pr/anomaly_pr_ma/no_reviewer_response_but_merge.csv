@@ -1,0 +1,63 @@
+﻿repo,pr_number,pr_type,pr_subtype,explain,contributor_name,contributor_email,requested_reviewer_name,requested_reviewer_email,maintainer_name,maintainer_email,reason
+zipkin,3411,1,2,,jcchavezs,jc@tetrate.io,{'llinder'},[None],jcchavezs,jc@tetrate.io,unknown-原因未知
+netbeans,2658,1,2,,entlicher,Martin.Entlicher@oracle.com,{'JaroslavTulach'},[None],entlicher,Martin.Entlicher@oracle.com,unknown-原因未知
+netbeans,2706,2,2,,entlicher,Martin.Entlicher@oracle.com,"{'geertjanw', 'neilcsmith-net'}","[None, 'neil@codelerity.com']",geertjanw,geertjan@apache.org,unknown-原因未知
+netbeans,2881,3,2,,jtulach,,"{'geertjanw', 'neilcsmith-net'}","[None, 'neil@codelerity.com']",JaroslavTulach,jaroslav.tulach@enso.org,unknown-原因未知
+netbeans,3071,1,1,This PR fixed https://issues.apache.org/jira/browse/NETBEANS-5159 issue.,JaroslavTulach,,"{'tzezula', 'ebarboni', 'sdedic'}","['tomas.zezula@oracle.com', 'skygo@apache.org', 'svatopluk.dedic@oracle.com']",JaroslavTulach,jaroslav.tulach@enso.org,unknown-原因未知
+netbeans,3095,2,2,,jtulach,,"{'lkishalmi', 'ebarboni'}","['laszlo.kishalmi@gmail.com', 'skygo@apache.org']",ebarboni,skygo@apache.org,unknown-原因未知
+netbeans,3378,2,2,,jisedlac,,"{'JaroslavTulach', 'sdedic', 'entlicher'}","[None, 'svatopluk.dedic@oracle.com', 'Martin.Entlicher@oracle.com']",entlicher,Martin.Entlicher@oracle.com,unknown-原因未知
+phoenix,4241,2,1,❤️❤️❤️???????? ,TheFirstAvenger,,{'chrismccord'},[None],chrismccord,,other-maintainer对贡献者表示感谢，说明认同了变更
+opencv,19542,2,2,,OrestChura,orest.chura@intel.com,"{'mpashchenkov', 'alalek'}","['t302me@yandex.ru', 'alexander.a.alekhin@gmail.com']",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,19619,2,2,,amirtu,amir.tulegen@gmail.com,"{'asmorkalov', 'alalek'}","[None, 'alexander.a.alekhin@gmail.com']",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,19778,2,2,,damonyu1989,,"{'alalek', 'vpisarev'}","['alexander.a.alekhin@gmail.com', None]",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,19822,3,2,,alalek,alexander.a.alekhin@gmail.com,{'terfendail'},[None],opencv-pushbot,,unknown-原因未知
+opencv,19829,3,2,,alalek,alexander.a.alekhin@gmail.com,{'LupusSanctus'},[None],opencv-pushbot,,unknown-原因未知
+opencv,19883,3,2,,jondea,jonathan.deakin@arm.com,"{'asmorkalov', 'vpisarev'}","[None, None]",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,19971,3,2,,TolyaTalamanov,anatoliy.talamanov@intel.com,"{'dmatveev', 'alalek'}","['dmitry@g-api.org', 'alexander.a.alekhin@gmail.com']",opencv-pushbot,,unknown-原因未知
+opencv,20011,3,2,,Developer-Ecosystem-Engineering,,{'vpisarev'},[None],alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,20054,2,2,,danielenricocahall,,"{'alalek', 'vpisarev'}","['alexander.a.alekhin@gmail.com', None]",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,20103,2,2,,thezane,,"{'alalek', 'vpisarev'}","['alexander.a.alekhin@gmail.com', None]",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,20321,3,2,,alalek,alexander.a.alekhin@gmail.com,{'vpisarev'},[None],opencv-pushbot,,unknown-原因未知
+opencv,20611,3,2,,VadimLevin,vadim.levin@xperience.ai,"{'vpisarev', 'TolyaTalamanov', 'mshabunin'}","[None, 'anatoliy.talamanov@intel.com', 'maksim.shabunin@gmail.com']",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,20814,3,2,,alalek,alexander.a.alekhin@gmail.com,{'JulieBar'},[None],opencv-pushbot,,unknown-原因未知
+opencv,21018,2,2,,savuor,savuor@gmail.com,"{'alalek', 'vpisarev'}","['alexander.a.alekhin@gmail.com', None]",alalek,alexander.a.alekhin@gmail.com,unknown-原因未知
+opencv,21218,3,2,,alalek,alexander.a.alekhin@gmail.com,"{'dmatveev', 'AsyaPronina'}","['dmitry@g-api.org', 'anastasiya.pronina@intel.com']",opencv-pushbot,,unknown-原因未知
+opencv,21334,3,2,,catree,,{'vpisarev'},[None],opencv-pushbot,,unknown-原因未知
+dubbo,7119,2,2,,kevinw66,wuzhiguo@apache.org,{'chickenlj'},['ken.lj.hz@gmail.com'],chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7189,2,2,,AlbumenJ,jhq0812@gmail.com,{'chickenlj'},['ken.lj.hz@gmail.com'],chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7440,3,2,,zonghaishang,yiji@apache.org,{'chickenlj'},['ken.lj.hz@gmail.com'],AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,8263,3,2,,horizonzy,horizonzy@apache.org,"{'kylixs', 'chickenlj'}","[None, 'ken.lj.hz@gmail.com']",AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,8404,3,2,,horizonzy,horizonzy@apache.org,{'chickenlj'},['ken.lj.hz@gmail.com'],AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,8578,3,2,,chickenlj,ken.lj.hz@gmail.com,{'kylixs'},[None],AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,8907,2,2,,owen200008,89424516@qq.com,{'AlbumenJ'},['jhq0812@gmail.com'],AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,9231,3,2,,pinxiong,pinxiong.cn@gmail.com,{'kylixs'},[None],AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+tensorflow,46470,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,46560,2,2,,tensorflow-jenkins,,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,46584,3,2,,advaitjain,,"{'njeffrie', 'mansnils'}","[None, 'mans.nilsson@arm.com']",copybara-service[bot],,unknown-原因未知
+tensorflow,46590,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,47055,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,47102,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,47231,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,47327,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,48619,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,48682,3,2,,advaitjain,,{'njeffrie'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,48784,3,2,,advaitjain,,{'mansnils'},['mans.nilsson@arm.com'],copybara-service[bot],,unknown-原因未知
+tensorflow,49406,2,2,,geetachavan1,,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,50181,3,2,,kaixih,kaixih@nvidia.com,{'timshen91'},['github@timshen.me'],copybara-service[bot],,unknown-原因未知
+tensorflow,50703,2,2,,tensorflow-jenkins,,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,52034,3,2,,wamuir,wamuir@gmail.com,"{'mihaimaruseac', 'GMNGeoffrey'}","['mihaimaruseac@google.com', None]",copybara-service[bot],,unknown-原因未知
+tensorflow,52246,3,2,,Yash621,yg17381@gmail.com,{'MarkDaoust'},[None],copybara-service[bot],,unknown-原因未知
+tensorflow,52359,3,2,,rsuderman,suderman@google.com,"{'sanjoy', 'stellaraccident', 'joker-eph'}","['sanjoy@sanjoy.link', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,52374,3,2,,rsuderman,suderman@google.com,"{'sanjoy', 'stellaraccident', 'joker-eph'}","['sanjoy@sanjoy.link', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,52581,3,2,,rsuderman,suderman@google.com,"{'jpienaar', 'sanjoy', 'smit-hinsu', 'joker-eph'}","['jpienaar@google.com', 'sanjoy@sanjoy.link', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,52611,3,2,,rsuderman,suderman@google.com,"{'jpienaar', 'sanjoy', 'smit-hinsu', 'joker-eph'}","['jpienaar@google.com', 'sanjoy@sanjoy.link', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,52686,3,2,,rsuderman,suderman@google.com,"{'jpienaar', 'sanjoy', 'stellaraccident', 'joker-eph'}","['jpienaar@google.com', 'sanjoy@sanjoy.link', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,53329,3,2,,SamuelMarks,,"{'sanjoy', 'er91', 'advaitjain', 'joker-eph'}","['sanjoy@sanjoy.link', 'endlessroad@google.com', None, None]",copybara-service[bot],,unknown-原因未知
+tensorflow,53428,3,2,,rsuderman,suderman@google.com,"{'jpienaar', 'sanjoy', 'joker-eph'}","['jpienaar@google.com', 'sanjoy@sanjoy.link', None]",copybara-service[bot],,unknown-原因未知
+tensorflow,50072,3,2,,advaitjain,,{'petewarden'},['pete@petewarden.com'],copybara-service[bot],,unknown-原因未知
+tensorflow,50770,1,2,,mihaimaruseac,mihaimaruseac@google.com,{'geetachavan1'},[None],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,51110,1,2,,mihaimaruseac,mihaimaruseac@google.com,{'penpornk'},[None],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,51251,1,2,,mihaimaruseac,mihaimaruseac@google.com,{'penpornk'},[None],mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+spring-cloud-function,687,2,2,,meltsufin,,{'olegz'},['ozhurakousky@vmware.com'],olegz,ozhurakousky@vmware.com,unknown-原因未知
+hadoop,2780,2,1,Thank you @nohkwangsun for your contribution!,nohkwangsun,,{'aajisaka'},[None],aajisaka,aajisaka@apache.org,other-评审者同意了，但是贡献者又要求再次评审（并未做新的更改），可能是贡献者的误操作
+redis,8394,1,2,,soloestoy,zhaozhao.zz@alibaba-inc.com,{'oranagra'},['oran@redislabs.com'],soloestoy,zhaozhao.zz@alibaba-inc.com,unknown-推测是误操作，因为评审者同意后，贡献者在没有做出新的变更，却仍然要求评审者再次评审

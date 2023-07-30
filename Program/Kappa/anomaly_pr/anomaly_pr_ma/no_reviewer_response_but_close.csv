@@ -1,0 +1,155 @@
+﻿repo,pr_number,pr_type,pr_subtype,explain,contributor_name,contributor_email,requested_reviewer_name,requested_reviewer_email,maintainer_name,maintainer_email,reason
+opencv,19877,2,3,Replaced by https://github.com/opencv/opencv/pull/20671,erikguo,,{'rogday'},[None],rogday,,conflict-其他PR/分支正在解决相同的问题
+opencv,19880,1,5,,danielenricocahall,,{'vpisarev'},[None],danielenricocahall,danielenricocahall@gmail.com,unknown-原因未知
+opencv,19955,3,3,Replacement for #19955,danielenricocahall,,{'alalek'},['alexander.a.alekhin@gmail.com'],asmorkalov,,conflict-其他PR/分支正在解决相同的问题
+opencv,20340,1,3,It will be rewritten in future ,DumDereDum,,{'savuor'},['savuor@gmail.com'],DumDereDum,,deferred-当前PR有待完善
+opencv,20926,1,3,"Closed because new Async Version of Demultiplexer was implemented in https://github.com/opencv/opencv/pull/21022
+which reject some code changes are introduced by current PR",sivanov-work,sergey.ivanov@intel.com,"{'dbudniko', 'smirnov-alexey', 'TolyaTalamanov', 'dmatveev', 'AsyaPronina'}","[None, 'alexey.smirnov@intel.com', 'anatoliy.talamanov@intel.com', 'dmitry@g-api.org', 'anastasiya.pronina@intel.com']",sivanov-work,sergey.ivanov@intel.com,superseded-其他PR解决方式更优
+opencv,21203,2,3,Closed in favor of https://github.com/opencv/opencv/pull/21297,hujunyao,,{'rogday'},[None],rogday,,superseded-其他PR解决方式更优
+dubbo,8650,2,3,see how this issue's been fixed on 3.x branch. https://github.com/apache/dubbo/pull/9464,zrlw,zrlw@sina.com,{'chickenlj'},['ken.lj.hz@gmail.com'],chickenlj,ken.lj.hz@gmail.com,conflict-其他PR/分支正在解决相同的问题
+dubbo,9195,2,3,Please see the discussion on #6443.,CrazyHZM,crazyhzm@apache.org,{'chickenlj'},['ken.lj.hz@gmail.com'],chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,9259,2,3,Replaced by https://github.com/apache/dubbo/pull/9266,CrazyHZM,crazyhzm@apache.org,{'kylixs'},[None],kylixs,,conflict-其他PR/分支正在解决相同的问题
+tensorflow,46322,1,3,"Umm, sorry that I mess up the branch. Let me reopen a new one #46351 .",WindQAQ,windqaq@gmail.com,"{'annarev', 'kkimdev', 'joker-eph', 'smit-hinsu', 'abattery', 'rohan100jain'}","[None, None, None, None, 'jaesung@google.com', 'rohan100jain@gmail.com']",WindQAQ,windqaq@gmail.com,other-误操作
+tensorflow,46335,1,3,"Tested against an outdated LLVM commit, so this is obsolete.",marbre,,{'joker-eph'},[None],marbre,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,46339,2,3,We no longer update `r1.*` branches as all TF 1.x versions have reached end of support.,kaanfurkan35,kaanfurkan35@gmail.com,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,46778,2,3,Links works for me. `ISSUES.md` is not the same as `ISSUE_TEMPLATE.md`,de-code,,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,incorrect implementation-当前PR解决问题的方式有误，缺少或不符合项目标准
+tensorflow,46793,1,3,"Closing this PR, as FAKE_QUANT is currently not required in TFLM per Nat Jeffries.",rsun-bdti,,"{'advaitjain', 'petewarden'}","[None, 'pete@petewarden.com']",rsun-bdti,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,46795,1,3,"Closing this PR, as FAKE_QUANT is currently not required in TFLM per Nat Jeffries.",rsun-bdti,,"{'advaitjain', 'petewarden'}","[None, 'pete@petewarden.com']",rsun-bdti,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,46968,1,4,"['size:S', 'cla: yes', 'comp:xla']",georgepaw,grzpawelczak@gmail.com,{'joker-eph'},[None],georgepaw,grzpawelczak@gmail.com,unknown-原因未知
+tensorflow,47063,2,3,"With TFLM moving to its own GitHub repository, we are not going to be merging any TFLM specific pull requests in the TensorFlow repository starting today.
+
+I am closing the current PR but please feel free to open a new PR in https://github.com/tensorflow/tflite-micro/.
+
+https://groups.google.com/a/tensorflow.org/g/micro/c/W4DACgjPmOE
+",vikramdattu,dattuvikram@gmail.com,{'advaitjain'},[None],advaitjain,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,47240,2,3,"Thanks for the PR. At this time we would like to avoid adding additional build systems and will not be able to accept this PR.
+
+Additionally, we are also in the process of making it easier to have integrations such as this (but external to the TFLM codebase) which would give you more control over exactly how you use TFLM as part of a larger system.
+
+Please see https://github.com/tensorflow/tensorflow/issues/47413 for more details.
+
+I am closing this PR but will be happy to answer questions on how to use this v2 project generation / external integration framework.
+",hakehuang,,{'advaitjain'},[None],advaitjain,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,47250,1,4,"['size:XL', 'cla: no']",reza-amd,,"{'kkimdev', 'joker-eph', 'rohan100jain'}","[None, None, 'rohan100jain@gmail.com']",reza-amd,reza.amd.2021@gmail.com,unknown-原因未知
+tensorflow,47272,3,3,"Good catch and thanks for the PR! 
+
+In fact this case thing applies not only to optimizer, but also loss and metrics. We decided that this won't affect users in a significant way, so we will close the PR. Thanks again!",dunnkers,jeroenoverschie@godatadriven.com,{'gbaned'},[None],chenmoneygithub,qianchen94era@gmail.com,deferred-当前PR有待完善
+tensorflow,47410,2,3,"Hi @TylerADavis, Thank you for the contribution.
+For now we also think #45690 is a better approach because it requires no API change. You are right that it doesn't support multi-label classification, which is a bummer, but as far as I can see, your approach (as it is right now) doesn't either, because it still uses confusion_matrix which AFAIK assumes a single class per element. A multi-label MeanIoU would also be a valuable addition IMO.",TylerADavis,,"{'deeb02', 'gbaned'}","[None, None]",deeb02,,superseded-其他PR解决方式更优
+tensorflow,47733,2,3,"This is the default behavior:
+
+```
+>>> int(3.7)
+3
+>>> int(-3.7)
+-3
+```",jameshfisher,jameshfisher@gmail.com,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,deferred-当前PR有待完善
+tensorflow,47803,1,3,"I don't know why, but this PR just can't get merged into the master for two months. Closing it now to start over.  ",rsun-bdti,,{'petewarden'},['pete@petewarden.com'],rsun-bdti,,other-当前PR没法合入到master分支，原因未知
+tensorflow,47822,3,3,"With TFLM moving to its own GitHub repository, we are not going to be merging any TFLM specific pull requests in the TensorFlow repository starting today.
+
+I am closing the current PR but please feel free to open a new PR in https://github.com/tensorflow/tflite-micro/.
+
+https://groups.google.com/a/tensorflow.org/g/micro/c/W4DACgjPmOE
+",yair-ehrenwald,yair.ehrenwald@ceva-dsp.com,{'petewarden'},['pete@petewarden.com'],advaitjain,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,47844,2,3,"The changes from this PR are merged with https://github.com/tensorflow/tensorflow/commit/b0da18591202c2b4cbd2322d2bd468901b16b4a3. Closing the PR.
+
+Since adding new commits to a PR and approval and merging in the internal infrastructure can happen independently we can get into a state where some of the commits from a PR are merged but not others (which is the case here).
+
+In most cases this is not a problem.",wojciechowskidawid,david.adalberts@gmail.com,{'advaitjain'},[None],advaitjain,,merged-PR包含的变更通过其他形式被合入
+tensorflow,47887,2,3,"Thanks for the PR. With https://github.com/tensorflow/tensorflow/pull/47842, we are changing the Renode download script and it will no longer use head so that should adress compatibility with OSX.
+
+I am closing this PR but please let me know if things do not work for you once https://github.com/tensorflow/tensorflow/pull/47842 is merged.",henriwoodcock,,{'advaitjain'},[None],advaitjain,,superseded-其他PR解决方式更优
+tensorflow,48276,2,3,"Please see for more details about why we doing this.
+
+https://github.com/tensorflow/tensorflow/pull/47808#pullrequestreview-612848161",joonb14,,{'qlzh727'},['scottzhu@google.com'],qlzh727,scottzhu@google.com,unknown-原因未知
+tensorflow,48625,1,4,"['size:XL', 'cla: no']",Dantas198,,"{'kkimdev', 'joker-eph', 'caisq', 'qqfish'}","[None, None, None, 'qqfishyx@gmail.com']",Dantas198,xp1998@live.com.pt,unknown-原因未知
+tensorflow,48780,2,3,I don't think this is relevant. We don't want to change a guidelines file to one with bragging contents.,juzhiyuan,juzhiyuan@apache.org,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,48906,1,3,I think this PR can be replaced by https://github.com/tensorflow/tensorflow/pull/49244 which upgrades the cudnn frontend to v0.3 and adds some related code change. So closing this one.,kaixih,kaixih@nvidia.com,{'timshen91'},['github@timshen.me'],kaixih,kaixih@nvidia.com,superseded-其他PR解决方式更优
+tensorflow,49030,2,3,"Hi @ammarchalifah , we concluded that our api surface is too expansive as-is and so we unfortunately can't add this argument. You should be able to subclass the accuracy metric and override update_state (and call the super method in there) to make your own custom metric that has this functionality.",ammarchalifah,,"{'gbaned', 'tomerk'}","[None, None]",tomerk,,deferred-当前PR有待完善
+tensorflow,49134,2,3,"With TFLM moving to its own GitHub repository, we are not going to be merging any TFLM specific pull requests in the TensorFlow repository starting today.
+
+I am closing the current PR but please feel free to open a new PR in https://github.com/tensorflow/tflite-micro/.
+
+https://groups.google.com/a/tensorflow.org/g/micro/c/W4DACgjPmOE
+",bhanuprakashbv,,"{'advaitjain', 'petewarden'}","[None, 'pete@petewarden.com']",advaitjain,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,49250,2,3,"With TFLM moving to its own GitHub repository, we are not going to be merging any TFLM specific pull requests in the TensorFlow repository starting today.
+
+I am closing the current PR but please feel free to open a new PR in https://github.com/tensorflow/tflite-micro/.
+
+https://groups.google.com/a/tensorflow.org/g/micro/c/W4DACgjPmOE
+",rkuester,,"{'advaitjain', 'petewarden'}","[None, 'pete@petewarden.com']",advaitjain,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,49516,3,3,Thanks for the PR! We're actually in the process of removing this behavior right now. It will be gone in TF 2.7.,dwyatte,,{'gbaned'},[None],fchollet,francois.chollet@gmail.com,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,49735,1,3,Closing as it seems it has been merged.,Tessil,,"{'ziyeqinghan', 'jianlijianli', 'advaitjain', 'abattery'}","[None, None, None, 'jaesung@google.com']",Tessil,,merged-PR包含的变更通过其他形式被合入
+tensorflow,49830,1,3,"Sorry for the late reply. @multiverse-tf Thank you for the clarification! I am still working with 2.4.0 codebase, where tflite::ops::builtin::BuiltinOpResolver is used instead of tflite::ops::builtin::BuiltinOpResolverWithoutDefaultDelegates, so I missed this important change. So that this PR is actually unneeded now, so closing it.",dev0x13,george.manuilov@gmail.com,"{'ziyeqinghan', 'thaink', 'multiverse-tf'}","[None, 'thaibkset@gmail.com', None]",dev0x13,george.manuilov@gmail.com,incorrect implementation-当前PR解决问题的方式有误，缺少或不符合项目标准
+tensorflow,49845,1,3,@njeffrie confirmed that this PR is unnecessary. If GetCurrentTimeTicks overflows as a two's complement then end-start will always give a positive number within the int32_t range.,advaitjain,,{'njeffrie'},[None],advaitjain,,superfluous-当前PR不能解决现有问题或添加项目所需的功能。
+tensorflow,49915,2,3,Closing due to no activity on the suggestion.,ddavis-2015,,{'abattery'},['jaesung@google.com'],abattery,jaesung@google.com,other-没有其他人对贡献者的提问做出答复
+tensorflow,50018,2,3,"It does default to 1.0 for floats:
+
+```
+>>> tf.compat.v1.initializers.random_uniform()(shape=[])
+<tf.Tensor: shape=(), dtype=float32, numpy=0.14846969>
+```
+
+The None for `maxval` matches `tf.random.uniform`, and is important for throwing an error when `dtype` is integer and `maxval` isn't specified. You could maybe argue that initializers are more likely to be float-only so integers aren't very important, but given this is a 1.x-only API I'd lean toward leaving it as-is since we don't plan on further 1.x releases.",SamuelMarks,,"{'rohan100jain', 'allenlavoie', 'MarkDaoust'}","['rohan100jain@gmail.com', None, None]",allenlavoie,,superfluous-当前PR不能解决现有问题或添加项目所需的功能。
+tensorflow,50216,1,3,"Since @timshen91 has fixed the issue by reverting https://github.com/tensorflow/tensorflow/pull/48382# on their side, closing this PR.",kaixih,kaixih@nvidia.com,{'timshen91'},['github@timshen.me'],kaixih,kaixih@nvidia.com,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决
+tensorflow,50242,3,3,Thanks for the PR! This has been fixed separately. Please note that Keras development has moved to the repo keras-team/keras; going forward any PR should be directed there.,lebigot,,{'gbaned'},[None],fchollet,francois.chollet@gmail.com,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决
+tensorflow,50268,1,3,will reopen after internal review,gzmkl,Guozhong.Zhuang@intel.com,{'penpornk'},[None],gzmkl,Guozhong.Zhuang@intel.com,other-需要等内部讨论后在重新开启
+tensorflow,50287,3,3,The corresponding change has been made to keras-team/keras. Closing this PR now.,183amir,,{'gbaned'},[None],qlzh727,scottzhu@google.com,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决
+tensorflow,50371,1,4,"['size:XL', 'cla: no']",serach24,,"{'MarkDaoust', 'perfinion', 'kkimdev', 'joker-eph', 'sherhut', 'sanjoy', 'rohan100jain', 'qqfish'}","[None, None, None, None, None, 'sanjoy@sanjoy.link', 'rohan100jain@gmail.com', 'qqfishyx@gmail.com']",serach24,jiangchenhao2@Outlook.com,unknown-原因未知
+tensorflow,50374,3,3,"Thanks for the PR. We've actually fixed this issue as part of a separate change. Note that the current behavior does not special case relu (that would be weird), so `ReLU` gets converted to `re_lu`. While perhaps not pretty, it is what the capitalization of `ReLU` means.",craymichael,,{'gbaned'},[None],fchollet,francois.chollet@gmail.com,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决
+tensorflow,50416,2,3,Merged in 6114f66e57db5446a7f7995d801bb59a6e882d04,zzpmiracle,zhangzipeng.zzp@alibaba-inc.com,"{'joker-eph', 'sanjoy', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None]",joker-eph,,merged-PR包含的变更通过其他形式被合入
+tensorflow,50580,2,3,The placement of tf.data ops does not follow standard placement and should not rely on DEFAULT_DEVICE. Same rationale as #50605.,quintinwang5,quintin.wang@intel.com,"{'jsimsa', 'rohan100jain', 'saxenasaurabh', 'penpornk'}","[None, 'rohan100jain@gmail.com', None, None]",jsimsa,,deferred-当前PR有待完善
+tensorflow,50816,2,3,"Hi, this was added to `tensorflow/c/eager/c_api_experimental.h` https://github.com/tensorflow/tensorflow/blob/5dcfc51118817f27fad5246812d83e5dccdc5f72/tensorflow/c/eager/c_api_experimental.h#L430
+
+@allenlavoie fyi",rnett,rnett@gradle.com,"{'kkimdev', 'allenlavoie', 'qqfish'}","[None, None, 'qqfishyx@gmail.com']",kkimdev,,merged-PR包含的变更通过其他形式被合入
+tensorflow,50844,1,3,"This PR must be close because is from Keras Team, not from Tensorflow.  
+
+Here is the issue in Keras: https://github.com/keras-team/keras/issues/14958",arubiales,al.rubiales.b@gmail.com,{'rthadur'},[None],arubiales,al.rubiales.b@gmail.com,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,50969,1,4,"['size:S', 'cla: yes']",reza-amd,,"{'joker-eph', 'sanjoy', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None]",reza-amd,reza.amd.2021@gmail.com,unknown-原因未知
+tensorflow,51034,1,3,On macOS build issue is caused by https://github.com/google/snappy/blob/1.1.9/snappy.cc#L1032 will investigate and resubmit.,yongtang,yong.tang.github@outlook.com,{'mihaimaruseac'},['mihaimaruseac@google.com'],yongtang,yong.tang.github@outlook.com,deferred-当前PR有待完善
+tensorflow,51059,2,3,Moved to #51100 as this seems to have additional stuff,geetachavan1,,{'mihaimaruseac'},['mihaimaruseac@google.com'],mihaimaruseac,mihaimaruseac@google.com,conflict-其他PR/分支正在解决相同的问题
+tensorflow,51140,2,3,"This has been merged in 7d9c7679264c998afe6c9ef3873e5752e2b4454a, but for some reason this PR hasn't been marked as merged, and the commit message looks different from normal merge commits. Not sure why that happened, but closing this PR since the changes are in.",duncanriach,,{'reedwm'},[None],reedwm,,merged-PR包含的变更通过其他形式被合入
+tensorflow,51563,1,3,create by mistake.  Close.,justkw,karen.wu@intel.com,{'mihaimaruseac'},['mihaimaruseac@google.com'],justkw,karen.wu@intel.com,other-误操作
+tensorflow,51662,1,3,Replaced with PR #51662 ,christopherbate,,"{'joker-eph', 'sanjoy', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None]",christopherbate,,conflict-其他PR/分支正在解决相同的问题
+tensorflow,51791,1,4,"['size:M', 'cla: yes', 'awaiting review']",PatriceVignola,vignola.patrice@gmail.com,{'sjamesr'},['sjr@jdns.org'],PatriceVignola,vignola.patrice@gmail.com,unknown-原因未知
+tensorflow,52056,2,3,"Hi, 
+
+Thanks for taking the time to send a PR, but please try to focus on one thing at a time. 
+
+""Does the readme need this description paragraph?"" is one question. I'm leaning ""no"".
+
+Random whitespace changes in a bunch of other places is not part of that question, and would not be accepted as a PR on its own.",RushanNotOfficial,"(None, None)","{'mihaimaruseac', 'MarkDaoust', 'fchollet'}","['mihaimaruseac@google.com', None, 'francois.chollet@gmail.com']",MarkDaoust,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,52127,1,4,"['size:M', 'awaiting review', 'cla: yes']",rsuderman,suderman@google.com,"{'joker-eph', 'sanjoy', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None]",rsuderman,suderman@google.com,unknown-原因未知
+tensorflow,52171,1,3,Made moot by https://github.com/tensorflow/tensorflow/commit/6d8220b1d847904e9bfec34d990b9436d95cd661,elfringham,andrew.goodbody@linaro.org,{'rohan100jain'},['rohan100jain@gmail.com'],elfringham,andrew.goodbody@linaro.org,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决
+tensorflow,52185,2,3,"Sorry, I forgot to close this PR. This code is needed internally.",deven-amd,,{'akuegel'},[None],akuegel,,other-忘记导致操作延迟
+tensorflow,52187,1,4,"['size:M', 'awaiting review', 'cla: yes']",rsuderman,suderman@google.com,"{'joker-eph', 'sanjoy', 'stellaraccident', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None, None]",rsuderman,suderman@google.com,unknown-原因未知
+tensorflow,52233,2,4,invalid,naveensrinivasan,,{'angerson'},[None],angerson,,superfluous-当前PR不能解决现有问题或添加项目所需的功能。
+tensorflow,53375,1,3,Closed as per @MarkDaoust's comments,SamuelMarks,,"{'jpienaar', 'joker-eph', 'saxenasaurabh', 'penpornk', 'sanjoy', 'rohan100jain', 'qqfish'}","['jpienaar@google.com', None, None, None, 'sanjoy@sanjoy.link', 'rohan100jain@gmail.com', 'qqfishyx@gmail.com']",SamuelMarks,,other-MarkDaoust并未发表评论
+tensorflow,53439,1,4,"['size:L', 'awaiting review', 'awaiting review']",aardeb,aaron.debattista@arm.com,"{'jpienaar', 'joker-eph', 'rsuderman', 'sanjoy'}","['jpienaar@google.com', None, 'suderman@google.com', 'sanjoy@sanjoy.link']",aardeb,aaron.debattista@arm.com,deferred-当前PR有待完善
+tensorflow,53560,1,3,test,angerson,,{'mihaimaruseac'},['mihaimaruseac@google.com'],angerson,,other-测试用
+tensorflow,48686,1,3,test,tensorflowbutler,,{'rthadur'},[None],tensorflowbutler,,other-测试用
+tensorflow,49499,1,3,test,TakahashiYoshikazu,,"{'MarkDaoust', 'kkimdev', 'joker-eph', 'penpornk', 'sherhut', 'sanjoy', 'caisq', 'rohan100jain', 'qqfish'}","[None, None, None, None, None, 'sanjoy@sanjoy.link', None, 'rohan100jain@gmail.com', 'qqfishyx@gmail.com']",TakahashiYoshikazu,,other-测试用
+tensorflow,50156,1,4,['cla: yes'],geetachavan1,,{'mihaimaruseac'},['mihaimaruseac@google.com'],geetachavan1,geetac@google.com,unknown-原因未知
+tensorflow,50544,1,3,Closing this since there is already one created in https://github.com/tensorflow/tensorflow/pull/50543,qlzh727,scottzhu@google.com,{'mihaimaruseac'},['mihaimaruseac@google.com'],qlzh727,scottzhu@google.com,conflict-其他PR/分支正在解决相同的问题
+tensorflow,51152,1,4,"['awaiting review', 'size:XL', 'cla: no']",mihaimaruseac,mihaimaruseac@google.com,"{'kkimdev', 'joker-eph', 'penpornk', 'sherhut', 'sanjoy', 'caisq', 'qqfish'}","[None, None, None, None, 'sanjoy@sanjoy.link', None, 'qqfishyx@gmail.com']",mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,51158,1,4,"['awaiting review', 'size:XL', 'cla: no']",mihaimaruseac,mihaimaruseac@google.com,"{'joker-eph', 'sanjoy', 'penpornk', 'sherhut'}","[None, 'sanjoy@sanjoy.link', None, None]",mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,51159,1,4,"['size:XL', 'awaiting review', 'cla: no']",mihaimaruseac,mihaimaruseac@google.com,"{'kkimdev', 'joker-eph', 'mdanatg', 'penpornk', 'sherhut', 'sanjoy', 'rohan100jain'}","[None, None, None, None, None, 'sanjoy@sanjoy.link', 'rohan100jain@gmail.com']",mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,51714,2,3,test,Hhmndsh778,,"{'sanjoy', 'MarkDaoust', 'perfinion', 'kkimdev', 'joker-eph', 'mdanatg', 'penpornk', 'sherhut', 'chsigg', 'mihaimaruseac', 'caisq', 'rohan100jain', 'qqfish'}","['sanjoy@sanjoy.link', None, None, None, None, None, None, None, None, 'mihaimaruseac@google.com', None, 'rohan100jain@gmail.com', 'qqfishyx@gmail.com']",MarkDaoust,,other-测试用
+tensorflow,52804,1,3,(clicked too early),mihaimaruseac,mihaimaruseac@google.com,"{'jpienaar', 'MarkDaoust', 'perfinion', 'kkimdev', 'penpornk', 'rohan100jain'}","['jpienaar@google.com', None, None, None, None, 'rohan100jain@gmail.com']",mihaimaruseac,mihaimaruseac@google.com,other-误操作
+tensorflow,52819,1,4,"['size:XL', 'awaiting review', 'cla: no']",mihaimaruseac,mihaimaruseac@google.com,"{'jpienaar', 'MarkDaoust', 'perfinion', 'kkimdev', 'penpornk', 'rohan100jain'}","['jpienaar@google.com', None, None, None, None, 'rohan100jain@gmail.com']",mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,52826,1,4,"['awaiting review', 'size:XL', 'cla: no']",mihaimaruseac,mihaimaruseac@google.com,"{'jpienaar', 'joker-eph', 'sanjoy', 'penpornk'}","['jpienaar@google.com', None, 'sanjoy@sanjoy.link', None]",mihaimaruseac,mihaimaruseac@google.com,unknown-原因未知
+tensorflow,53452,3,3,"Usually we only accept these changes to master. Usually we don't accept changes that only fix one single typo.
+
+The documentation on the old branches won't get updated with the patch releases, it is supposed that patch releases only fix security issues, not add new features / new documentation.",mohantym,,{'jsimsa'},[None],mihaimaruseac,mihaimaruseac@google.com,process-当前PR不符合项目惯例/项目开发习惯
+zookeeper,1576,1,1,,ztzg,dd@crosstwine.com,"{'symat', 'nkalmar', 'anmolnar', 'phunt', 'fpj', 'eolivelli'}","['symat@apache.org', 'nkalmar@apache.org', 'andor@apache.org', 'phunt1@gmail.com', None, 'eolivelli@gmail.com']",ztzg,dd@crosstwine.com,merged-PR包含的变更通过其他形式被合入
+zookeeper,1718,2,1,,liuxw888,,{'maoling'},[None],asfgit,,unknown-原因未知
+zookeeper,1787,3,2,,frederiko,frederiko@gmail.com,{'eolivelli'},['eolivelli@gmail.com'],maoling,,merged-PR包含的变更通过其他形式被合入
+spring-framework,26366,3,3,"As mentioned above, I went with a simpler approach of exposing all exception causes as provided handler method arguments.
+
+Thanks for the PR, in any case! I've added your tests to my commit (with your author attribution).",rod2j,rod2j@coquitlam.fr,{'rstoyanchev'},[None],jhoeller,hoellerj@vmware.com,merged-PR包含的变更通过其他形式被合入
+spring-framework,26569,2,1,,dennie170,,{'jhoeller'},['hoellerj@vmware.com'],jhoeller,hoellerj@vmware.com,deferred-当前PR有待完善
+spring-framework,26927,2,1,,korektur,akhundov2@gmail.com,{'rstoyanchev'},[None],rstoyanchev,rstoyanchev@vmware.com,unknown-原因未知
+spring-framework,27628,2,1,,iain-henderson,iain.henderson@mac.com,"{'poutsma', 'sdeleuze'}","[None, None]",poutsma,,merged-PR包含的变更通过其他形式被合入
+spring-framework,27835,3,1,,izeye,izeye@naver.com,{'poutsma'},[None],snicoll,snicoll@vmware.com,unknown-原因未知
+hadoop,3432,1,5,,Hexiaoqiao,,{'brahmareddybattula'},[None],Hexiaoqiao,hexiaoqiao@apache.org,unknown-原因未知
+redis,9947,2,3,already handled in #9656 ,MeirShpilraien,,{'oranagra'},['oran@redislabs.com'],oranagra,oran@redislabs.com,duplicate-在提交PR之前，该功能已在项目中/该问题已被解决

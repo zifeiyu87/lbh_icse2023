@@ -1,0 +1,152 @@
+﻿repo,pr_number,pr_type,pr_subtype,explain,contributor_name,contributor_email,reviewer_name,reviewer_email,maintainer_name,maintainer_email,reason
+netbeans,2781,1,3,"I've seen these problems in #2801, please integrate so Toni & co. can merge these changes in.",jlahoda,,JaroslavTulach,,JaroslavTulach,jaroslav.tulach@enso.org,conflict-其他PR/分支正在解决相同的问题
+netbeans,3242,1,3,Closing in favor of #3245 ,lkishalmi,laszlo.kishalmi@gmail.com,JaroslavTulach,,lkishalmi,laszlo.kishalmi@gmail.com,superseded-其他PR解决方式更优
+netbeans,3249,1,3,Closing the PR as `https://raw.githubusercontent.com/payara/Payara-Community-Documentation/master/docs/modules/ROOT/pages/schemas/payara-web-app_4.dtd` redirected back to the existing URL.,jGauravGupta,gaurav.gupta@payara.fish,matthiasblaesing,mblaesing@doppel-helix.eu,jGauravGupta,gaurav.gupta@payara.fish,deferred-当前PR有待完善
+opencv,20375,3,3,"There is no reason to modify tests to run on the first GPU only.
+Instead test should detect unsupported configuration and skip if there are some issues.",tolysz,tolysz@gmail.com,asmorkalov,,alalek,alexander.a.alekhin@gmail.com,incorrect implementation-当前PR解决问题的方式有误，缺少或不符合项目标准
+opencv,20911,1,5,,AleksandrPanov,alexander.panov@xperience.ai,Qannaf,,AleksandrPanov,alexander.panov@xperience.ai,unknown-原因未知
+dubbo,7198,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7199,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7201,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7204,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7205,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7206,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7207,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7208,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7209,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7210,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7211,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7213,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7216,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7218,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7219,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7220,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7221,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7223,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7224,3,4,"['priority/low', 'type/refactor', 'reopen-later']",XenoAmess,xenoamess@gmail.com,AlbumenJ,jhq0812@gmail.com,chickenlj,ken.lj.hz@gmail.com,unknown-原因未知
+dubbo,7596,1,5,,xiaoheng1,,horizonzy,horizonzy@apache.org,xiaoheng1,2018154970@qq.com,unknown-原因未知
+dubbo,7650,3,5,,pinxiong,pinxiong.cn@gmail.com,chickenlj,ken.lj.hz@gmail.com,AlbumenJ,jhq0812@gmail.com,unknown-原因未知
+dubbo,7811,3,5,,stoneapple,736551961@qq.com,icankeep,whzhoua@gmail.com,zhangyz-hd,zhangyzhd@163.com,unknown-原因未知
+dubbo,8983,3,3,Covered with other smaller pull requests.,kevinw66,wuzhiguo@apache.org,kylixs,,chickenlj,ken.lj.hz@gmail.com,other-与其他包含较少变更的PR合并集中处理
+dubbo,9093,3,3,"Still in draft status, reopen when it's ready.",kylixs,,andrewchoi5,andrew.choi@uwaterloo.ca,chickenlj,ken.lj.hz@gmail.com,deferred-当前PR有待完善
+tensorflow,46382,3,3,Seems auto-merge is not happening but the changes are now committed so we can close this. Thank you for the PR.,tfeher,tfeher@nvidia.com,bixia1,bixia@google.com,rthadur,,merged-PR包含的变更通过其他形式被合入
+tensorflow,46861,3,3,I'm going to close the current PR. If this is still an issue please feel free to create a new PR that removes `__restrict__` since that is an optimization which is not necessary in the reference implementation. The benefits of `__restrict__` in svdf are not entirely clear either so removing it to fix the Windows build will be ok.,AdamHillier,,gbaned,,advaitjain,,deferred-当前PR有待完善
+tensorflow,47726,3,3,This PR has been merged: https://github.com/keras-team/keras/commit/214d11055890d5f3dcc83d2af69ad17089b8177d,m-lyon,,gbaned,,fchollet,francois.chollet@gmail.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,48415,1,5,,geetachavan1,,Nirzak,nirjas01@student.sust.edu,mdanatg,mdan@google.com,unknown-原因未知
+tensorflow,48727,1,3,"For some reason, maybe the branch name too long? Only three tests are running. Re-created the same PR here https://github.com/tensorflow/tensorflow/pull/48812. Closing this PR.",rsun-bdti,,petewarden,pete@petewarden.com,rsun-bdti,,incorrect implementation-当前PR解决问题的方式有误，缺少或不符合项目标准
+tensorflow,49141,3,3,This PR has been merged: https://github.com/keras-team/keras/commit/95c2966d9dd8b5ba67c9473bb1099a407f3b9bd7,bizzyvinci,horlasehinde@gmail.com,gbaned,,fchollet,francois.chollet@gmail.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,49860,3,3,"ok. This change is merged to keras-team/keras as https://github.com/keras-team/keras/commit/d9e7b83c70e2117f40465b79e2e8201cea46d36a. (since we split the keras code to keras-team/keras).
+
+Closing this PR now.",ashutosh1919,ashutoshhathidara98@gmail.com,bhack,,qlzh727,scottzhu@google.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,49919,3,3,Seems auto-merge is not happening but the changes are now committed so we can close this. Thank you for the PR.,azazhu,azazhu@hotmail.com,joker-eph,,rthadur,,merged-PR包含的变更通过其他形式被合入
+tensorflow,50098,1,3,close this since similar code is committed in 53d3617374a171acf847f5d23bdcd7061e5a2809,freedomtan,koansin.tan@gmail.com,gbaned,,freedomtan,koansin.tan@gmail.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,50270,2,3,Closing this as it is merged. ,mahmoud-abuzaina,mahmoud.abuzaina@intel.com,penpornk,,penpornk,,merged-PR包含的变更通过其他形式被合入
+tensorflow,51032,3,3,"Most likely copybara won't merge this as it needed manual work, but it is now merged as of 7add88f2982331be6ba65ddc66f1c88053028fff
+
+Sorry for the delay and thanks for sending all these PRs to TF",yongtang,yong.tang.github@outlook.com,gbaned,,mihaimaruseac,mihaimaruseac@google.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,51129,3,3,I've created cl/388510144. Closing this in favor of that CL.,nyadla-sys,,petewarden,pete@petewarden.com,njeffrie,,superseded-其他PR解决方式更优
+tensorflow,51136,2,3,"Closed, since the PR has been pulled in https://github.com/tensorflow/tensorflow/commit/d76dffffa4b6b17066d5b049afd5323a807965ec",nyadla-sys,,petewarden,pete@petewarden.com,petewarden,pete@petewarden.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,51374,1,3,"Thank you for running this but it is failing again internally. 
+I will close this as we don't have a clear position and allocated resources about the expecting failing tests proposal.
+
+I will open some of these PRs again in the case this process it will be officially approved.",bhack,,mihaimaruseac,mihaimaruseac@google.com,bhack,,tests-有失败的测试用例
+tensorflow,51604,2,3,"Closing this, since the PR is no longer relevant. The CUDA upgrade has been pushed out.",kushanam,,pkanwar23,,pkanwar23,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,51973,3,3,Should be handled already by d81b1351da3e8c884ff836b64458d94e4a157c15,yongtang,yong.tang.github@outlook.com,gbaned,,mihaimaruseac,mihaimaruseac@google.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,52102,1,3,no longer need.  Close.,justkw,karen.wu@intel.com,gbaned,,justkw,karen.wu@intel.com,obsolete-当前PR过时/随着项目的发展，PR不在相关
+tensorflow,53367,2,3,This has landed but GitHub fails to notice that.,yongtang,yong.tang.github@outlook.com,mihaimaruseac,mihaimaruseac@google.com,mihaimaruseac,mihaimaruseac@google.com,merged-PR包含的变更通过其他形式被合入
+tensorflow,48446,1,3,closing this PR as I have included the changed here. https://github.com/tensorflow/tensorflow/pull/48423,rthadur,,nikitamaia,namjoshi.nikita@gmail.com,rthadur,,conflict-其他PR/分支正在解决相同的问题
+tensorflow,48790,1,3,"Ahh, I bet I'll have to do this internally-first, because it introduces a new file in the root folder.",angerson,,mihaimaruseac,mihaimaruseac@google.com,angerson,,deferred-当前PR有待完善
+zookeeper,1569,2,1,,lanicc,lanettiesso@gmail.com,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1572,3,1,,edwin092,edwinhobor@gmail.com,symat,symat@apache.org,nkalmar,nkalmar@apache.org,unknown-原因未知
+zookeeper,1577,3,1,,ztzg,dd@crosstwine.com,eolivelli,eolivelli@gmail.com,eolivelli,eolivelli@datastax.com,unknown-原因未知
+zookeeper,1579,3,1,,lanicc,lanettiesso@gmail.com,eolivelli,eolivelli@gmail.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1584,1,1,,maoling,,ztzg,dd@crosstwine.com,maoling,maoling199210191@sina.com,unknown-原因未知
+zookeeper,1585,2,1,,maoling,,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1586,1,1,,ztzg,dd@crosstwine.com,eolivelli,eolivelli@gmail.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1589,2,1,,brentwritescode,,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1597,2,1,,LuoManGit,,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1598,3,1,,amichair,,hanm,,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1602,2,1,,smikes,,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1605,2,1,,frederiko,frederiko@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1606,2,1,,ctubbsii,,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1609,3,1,,smikes,,symat,symat@apache.org,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1611,2,1,,ztzg,dd@crosstwine.com,nkalmar,nkalmar@apache.org,nkalmar,nkalmar@apache.org,unknown-原因未知
+zookeeper,1615,2,1,,symat,symat@apache.org,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1616,1,2,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,RokLenarcic,rok.lenarcic@gmail.com,unknown-原因未知
+zookeeper,1619,2,2,,MuktiKrishnan,,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1622,2,1,,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1623,2,1,,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1627,2,2,,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1628,2,2,,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1629,2,2,,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1635,2,2,,arshadmohammad,arshad@apache.org,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1638,3,1,,kelloggm,martin.kellogg@njit.edu,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1639,2,2,,MuktiKrishnan,,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1645,3,1,,ayushmantri,aayushmantri@gmail.com,eolivelli,eolivelli@gmail.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1652,3,1,,nkalmar,nkalmar@apache.org,symat,symat@apache.org,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1653,2,2,,functioner,,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1654,1,1,,arshadmohammad,arshad@apache.org,symat,symat@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1656,1,2,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1659,2,1,,arshadmohammad,arshad@apache.org,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1660,2,2,,arshadmohammad,arshad@apache.org,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1662,3,1,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1663,2,2,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,eolivelli,eolivelli@datastax.com,unknown-原因未知
+zookeeper,1664,1,1,,arshadmohammad,arshad@apache.org,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1665,1,2,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1666,1,1,,arshadmohammad,arshad@apache.org,eolivelli,eolivelli@gmail.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1668,1,2,,arshadmohammad,arshad@apache.org,ztzg,dd@crosstwine.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1669,3,1,,ayushmantri,aayushmantri@gmail.com,eolivelli,eolivelli@gmail.com,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1671,2,2,,ayushmantri,aayushmantri@gmail.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1676,2,2,,nkalmar,nkalmar@apache.org,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1678,2,1,,ayushmantri,aayushmantri@gmail.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1687,3,1,,benecdict-fang,,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1696,3,3,"we have bump Netty to `4.1.70`, Let me close this PR
+",gpiyush-dev,,ztzg,dd@crosstwine.com,maoling,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+zookeeper,1700,2,1,,lanicc,lanettiesso@gmail.com,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1702,2,1,,eas5,eas5@cin.ufpe.br,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1711,1,1,,maoling,,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1712,2,1,,li4wang,,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1721,3,1,,zhongxiongzeng,,rainsbaby,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1724,2,1,,eolivelli,eolivelli@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1727,2,1,,bigmarvin,marvin.wu1986@gmail.com,nkalmar,nkalmar@apache.org,nkalmar,nkalmar@apache.org,unknown-原因未知
+zookeeper,1734,1,1,,ztzg,dd@crosstwine.com,eolivelli,eolivelli@gmail.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1739,2,1,,ztzg,dd@crosstwine.com,nkalmar,nkalmar@apache.org,nkalmar,nkalmar@apache.org,unknown-原因未知
+zookeeper,1740,2,1,,NihalJain,nihaljain.cs@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1741,2,1,,NihalJain,nihaljain.cs@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1743,2,1,,nicoloboschi,boschi1997@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1744,2,1,,lanicc,lanettiesso@gmail.com,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1752,3,1,,ruanwenjun,wenjun@apache.org,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1758,2,1,,ruanwenjun,wenjun@apache.org,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1760,2,1,,eolivelli,eolivelli@gmail.com,ztzg,dd@crosstwine.com,ztzg,ddiederen@apache.org,unknown-原因未知
+zookeeper,1762,2,2,,brahmareddybattula,,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+zookeeper,1764,1,1,,maoling,,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1767,2,2,,shahrs87,shahrs87@gmail.com,nkalmar,nkalmar@apache.org,nkalmar,nkalmar@apache.org,unknown-原因未知
+zookeeper,1768,2,2,,AnanyaSingh2121,purpul90@gmail.com,nkalmar,nkalmar@apache.org,nkalmar,nkalmar@cloudera.com,unknown-原因未知
+zookeeper,1771,2,1,,iamvevaar,,maoling,,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1781,3,1,,Shoothzj,shoothzj@gmail.com,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1786,3,2,,frederiko,frederiko@gmail.com,eolivelli,eolivelli@gmail.com,maoling,maoling@apache.org,unknown-原因未知
+zookeeper,1790,2,2,,AnanyaSingh2121,purpul90@gmail.com,arshadmohammad,arshad@apache.org,arshadmohammad,arshad@apache.org,unknown-原因未知
+spring-framework,26348,3,1,,runningcode,,mkakim95,,bclozel,bclozel@vmware.com,unknown-原因未知
+spring-framework,26600,2,1,,nullzl,,sbrannen,,sbrannen,sbrannen@vmware.com,unknown-原因未知
+spring-framework,26855,2,3,This has been merged and I've also switched HttpMethod matches to String equals comparison with b76e0c482608c664d5d1d701b995dc4ceb0ed340.,BryceYangS,,rstoyanchev,,rstoyanchev,,merged-PR包含的变更通过其他形式被合入
+spring-framework,26982,2,1,,nhavuong,,sbrannen,,sbrannen,sbrannen@vmware.com,unknown-原因未知
+spring-framework,27101,3,1,,diguage,leejun119@gmail.com,stsypanov,,snicoll,snicoll@vmware.com,unknown-原因未知
+spring-framework,27220,3,1,,AlexejTimonin,alexejtimonin@gmail.com,sbrannen,,rstoyanchev,rstoyanchev@vmware.com,unknown-原因未知
+spring-framework,27248,2,1,,Syuziko,,snicoll,snicoll@vmware.com,snicoll,snicoll@vmware.com,unknown-原因未知
+spring-framework,27823,2,1,,mdeinum,mdeinum@gmail.com,sbrannen,,sbrannen,sbrannen@vmware.com,unknown-原因未知
+vim,8929,3,1,,jamessan,jamessan@jamessan.com,chrisbra,,brammool,Bram@vim.org,unknown-原因未知
+hadoop,2584,1,3,merged,steveloughran,,mukund-thakur,,steveloughran,,merged-PR包含的变更通过其他形式被合入
+hadoop,2689,1,3,closing as we are removing s3guard completely,steveloughran,,bogthe,,steveloughran,,obsolete-当前PR过时/随着项目的发展，PR不在相关
+hadoop,2734,1,3,closing as unmerged; leaving the PR up,steveloughran,,bogthe,,steveloughran,,unknown-原因未知
+hadoop,2918,2,3,Committed to trunk. Thanks @whbing for your contributions! Thanks all to reviews!,whbing,,Hexiaoqiao,,Hexiaoqiao,,merged-PR包含的变更通过其他形式被合入
+hadoop,3098,3,3,Closed by reverting the original commit instead of using a different commit/pr,Yikf,yikaifei@apache.org,aajisaka,,liuml07,liuml07@apache.org,merged-PR包含的变更通过其他形式被合入
+hadoop,3348,1,3,"hello, do you plan to include this fix in upcoming 3.3.2 version?
+thank you!",cnauroth,cnauroth@apache.org,ywskycn,,vitalii-buchyn-exa,,merged-PR包含的变更通过其他形式被合入
+httpd,188,1,1,,notroj,,rpluem,,notroj,jorton@apache.org,unknown-原因未知
+redis,8581,1,3,dropping this. Yaacov is making a better fix.,oranagra,oran@redislabs.com,madolson,,oranagra,oran@redislabs.com,superseded-其他PR解决方式更优
+redis,8664,2,3,"@huangzhw this file is auto generated from https://github.com/redis/redis-doc/blob/master/commands.json
+which is also responsible for the contents of https://redis.io/commands/client-kill
+can you please submit a PR for the redis-doc repo?",huangzhw,huang_zhw@126.com,oranagra,oran@redislabs.com,oranagra,oran@redislabs.com,unknown-原因未知
+redis,8727,1,3,"As it's not a high priority issue, I vote for touching it only once and do it well - i.e. proper quoting in Redis 7.",yossigo,,zuiderkwast,viktor.soderqvist@est.tech,yossigo,,deferred-当前PR有待完善
+redis,8896,1,3,"I think this is also merged into #8890.
+Closing.",iakkus,,itamarhaber,itamar@redislabs.com,iakkus,,merged-PR包含的变更通过其他形式被合入
